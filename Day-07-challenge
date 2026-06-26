@@ -1,0 +1,39 @@
+# 🚀 Day 7 of My 90-Day Placement Preparation
+
+Today was all about strengthening my understanding of **Hash Maps, Bit Manipulation, and SQL**.
+
+## 📘 What I Learned
+
+* Hash Maps (Python Dictionary)
+* Frequency counting using `dict.get()`
+* Introduction to the XOR (`^`) operator and how it solves the "Single Number" problem with **O(1)** extra space.
+
+## 💻 LeetCode
+
+**Problem:** Single Number (Easy)
+
+✔️ Solved using a Hash Map.
+✔️ Learned the optimized XOR approach.
+
+## 🗄️ SQL Practice
+
+* COUNT()
+* GROUP BY
+* ORDER BY
+* Finding the department with the maximum number of employees.
+* Learned the difference between **MySQL (`LIMIT`)** and **SQL Server (`TOP`)** syntax.
+
+## 🚀 Development
+
+* Organized today's solutions in my GitHub repository.
+* Improved my understanding of GitHub project structure.
+
+### 🎯 Key Takeaways
+
+* Hash Maps are powerful for frequency-based problems.
+* XOR can eliminate duplicate numbers efficiently.
+* SQL syntax differs across database systems, so knowing the platform matters.
+
+Every day of consistent practice takes me one step closer to my placement goal. 💪
+
+#Day7 #Python #DSA #LeetCode #SQL #SQLServer #BitManipulation #HashMap #GitHub #PlacementPreparation #100DaysOfCode
