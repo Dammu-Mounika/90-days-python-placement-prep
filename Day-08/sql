@@ -1,0 +1,34 @@
+select * from employees;
+
+INSERT INTO Employees VALUES
+(1, 'Alice', 'IT'),
+(2, 'Bob', 'HR'),
+(3, 'Charlie', 'IT'),
+(4, 'David', 'Sales'),
+(5, 'Eva', 'IT'),
+(6, 'Frank', 'HR'),
+(7, 'Grace', 'Sales'),
+(8, 'Helen', 'Sales');
+
+
+Display departments in descending order of employee count.
+
+
+select department,count(id) from employees
+group by department
+order by count(id) desc
+
+Display the department with the highest number of employees.
+
+select Top 1 department,count(id)as employee from employees
+group by department
+order by count(id) desc;
+
+select * from employees;
+
+Write a query to display only the departments with exactly 2 employees.
+
+select department,count(id) as number from employees
+group by department
+having count(id)>1
+order by count(id) desc;
